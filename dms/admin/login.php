@@ -81,5 +81,6 @@
 </script>
 <div id="ms1ll334c" style="top: 4.5em; position: fixed; right: -1.5em; width: auto; opacity: 1.0; z-index: 9999999;" bis_skin_checked="1">
 <a href="ayatulcse@gmail.com" style="color:#8b0000; font-weight: bolder; background: rgb(235, 235, 235); padding: 1em 3em; border-radius: 50px; text-decoration: unset; font-size: 11px;" bis_skin_checked="1"><b>Developed by JUST(CSE)</b> </a></div>
+<!--1. git add . 2.git commit -m"added information" 3. git push-->
 </body>
 </html>
