@@ -47,25 +47,21 @@
           <div class="col-8">
             <!-- <a href="< ?php echo base_url ?>">Go to Website</a> -->
           </div>
-          <!-- /.col -->
+      
           <div class="col-4">
             <button type="submit" class="btn btn-primary btn-block">Sign In</button>
           </div>
-          <!-- /.col -->
+     
         </div>
       </form>
-      <!-- /.social-auth-links -->
-
-      <!-- <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
-      </p> -->
+   
       
     </div>
-    <!-- /.card-body -->
+
   </div>
-  <!-- /.card -->
+
 </div>
-<!-- /.login-box -->
+
 
 
 <script src="<?= base_url ?>plugins/jquery/jquery.min.js"></script>

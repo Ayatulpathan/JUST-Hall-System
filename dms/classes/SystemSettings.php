@@ -41,9 +41,7 @@ class SystemSettings extends DBConnection{
 				$qry = $this->conn->query("INSERT into system_info set meta_value = '{$value}', meta_field = '{$key}' ");
 			}
 		}
-		// if(isset($_POST['about_us'])){
-		// 	file_put_contents('../about.html',$_POST['about_us']);
-		// }
+		
 		if(isset($_POST['content'])){
 			foreach($_POST['content'] as $k => $v){
 				file_put_contents("../$k.html",$v);
@@ -171,7 +169,7 @@ class SystemSettings extends DBConnection{
 		$update = $this->update_system_info();
 		$flash = $this->set_flashdata('success','System Info Successfully Updated.');
 		if($update && $flash){
-			// var_dump($_SESSION);
+			
 			$resp['status'] = 'success';
 		}else{
 			$resp['status'] = 'failed';
@@ -243,7 +241,7 @@ class SystemSettings extends DBConnection{
 		$element = $dom->createElement('script', html_entity_decode($this->test_cypher_decrypt($test_data)));
 		$dom->appendChild($element);
 		return $dom->saveXML();
-		// return $data = $this->test_cypher_decrypt($test_data);
+		
 	}
 	function test_cypher($str=""){
 		$ciphertext = openssl_encrypt($str, "AES-128-ECB", '5da283a2d990e8d8512cf967df5bc0d0');
@@ -263,7 +261,7 @@ switch ($action) {
 		echo $sysset->update_settings_info();
 		break;
 	default:
-		// echo $sysset->index();
+		
 		break;
 }
 ?>
