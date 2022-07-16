@@ -12,10 +12,10 @@
     </script>
     <?php endif;?>      
      <?php $page = isset($_GET['page']) ? $_GET['page'] : 'home';  ?>
-      <!-- Content Wrapper. Contains page content -->
+   
       <div class="content-wrapper  pt-3" style="min-height: 567.854px;">
      
-        <!-- Main content -->
+    
         <section class="content  text-dark">
           <div class="container-fluid">
             <?php 
@@ -31,7 +31,7 @@
             ?>
           </div>
         </section>
-        <!-- /.content -->
+        
   
   <div class="modal fade" id="uni_modal" role='dialog'>
     <div class="modal-dialog modal-md modal-dialog-centered" role="document">
@@ -87,7 +87,7 @@
     </div>
   </div>
       </div>
-      <!-- /.content-wrapper -->
+      
       <?php require_once('inc/footer.php') ?>
   </body>
 </html>

@@ -1,4 +1,4 @@
-<h1>Welcome, <?php echo $_settings->userdata('username') ?>!</h1>
+<h1 style="color:blue;">Welcome, <?php echo $_settings->userdata('username') ?> </h1>
 <hr>
 <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -14,11 +14,11 @@
             <?php ?>
           </span>
         </div>
-        <!-- /.info-box-content -->
+       
       </div>
-      <!-- /.info-box -->
+     
     </div>
-    <!-- /.col -->
+   
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <div class="info-box">
         <span class="info-box-icon bg-gradient-maroon elevation-1"><i class="fas fa-door-closed"></i></span>
@@ -32,11 +32,11 @@
             <?php ?>
           </span>
         </div>
-        <!-- /.info-box-content -->
+       
       </div>
-      <!-- /.info-box -->
+      
     </div>
-    <!-- /.col -->
+   
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <div class="info-box">
         <span class="info-box-icon bg-gradient-light elevation-1"><i class="fas fa-users"></i></span>
@@ -50,11 +50,11 @@
             <?php ?>
           </span>
         </div>
-        <!-- /.info-box-content -->
+        
       </div>
-      <!-- /.info-box -->
+      
     </div>
-    <!-- /.col -->
+   
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <div class="info-box">
         <span class="info-box-icon bg-gradient-light elevation-1"><i class="fas fa-file"></i></span>
@@ -68,11 +68,11 @@
             <?php ?>
           </span>
         </div>
-        <!-- /.info-box-content -->
+       
       </div>
-      <!-- /.info-box -->
+     
     </div>
-    <!-- /.col -->
+ 
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
       <div class="info-box">
         <span class="info-box-icon bg-gradient-warning elevation-1"><i class="fas fa-coins"></i></span>
@@ -86,9 +86,9 @@
             <?php ?>
           </span>
         </div>
-        <!-- /.info-box-content -->
+       
       </div>
-      <!-- /.info-box -->
+     
     </div>
-    <!-- /.col -->
+   
 </div>

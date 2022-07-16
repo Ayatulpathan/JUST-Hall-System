@@ -6,7 +6,7 @@
 <?php endif;?>
 <div class="card card-outline rounded-0 card-maroon">
 	<div class="card-header">
-		<h3 class="card-title">List of Dorms</h3>
+		<h3 class="card-title">List of Halls</h3>
 		<?php if($_settings->userdata('type') == 1): ?>
 		<div class="card-tools">
 			<a href="javascript:void(0)" id="create_new" class="btn btn-flat btn-primary"><span class="fas fa-plus"></span>  Create New</a>

@@ -1,11 +1,13 @@
 <?php require_once('../config.php') ?>
 <!DOCTYPE html>
 <html lang="en" class="" style="height: auto;">
+<script src="<?= base_url ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
  <?php require_once('inc/header.php') ?>
 <body class="hold-transition login-page">
   <script>
     start_loader()
   </script>
+  <script src="<?= base_url ?>plugins/jquery/jquery.min.js"></script>
   <style>
     body{
       background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
@@ -64,7 +66,7 @@
 
 
 
-<script src="<?= base_url ?>plugins/jquery/jquery.min.js"></script>
+
 
 <script src="<?= base_url ?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 

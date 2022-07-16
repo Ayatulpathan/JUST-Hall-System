@@ -1,11 +1,4 @@
-/*
- * Author: Abdullah A Almsaeed
- * Date: 4 Jan 2014
- * Description:
- *      This is a demo file used only for the main dashboard (index.html)
- **/
 
-/* global moment:false, Chart:false, Sparkline:false */
 
 $(function () {
   'use strict'
@@ -100,21 +93,18 @@ $(function () {
   sparkline2.draw([515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921])
   sparkline3.draw([15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21])
 
-  // The Calender
   $('#calendar').datetimepicker({
     format: 'L',
     inline: true
   })
 
-  // SLIMSCROLL FOR CHAT WIDGET
   $('#chat-box').overlayScrollbars({
     height: '250px'
   })
 
-  /* Chart.js Charts */
-  // Sales chart
+ 
   var salesChartCanvas = document.getElementById('revenue-chart-canvas').getContext('2d')
-  // $('#revenue-chart').get(0).getContext('2d');
+  
 
   var salesChartData = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -164,9 +154,9 @@ $(function () {
     }
   }
 
-  // This will get the first returned node in the jQuery collection.
-  // eslint-disable-next-line no-unused-vars
-  var salesChart = new Chart(salesChartCanvas, { // lgtm[js/unused-local-variable]
+ 
+
+  var salesChart = new Chart(salesChartCanvas, { 
     type: 'line',
     data: salesChartData,
     options: salesChartOptions
@@ -193,11 +183,8 @@ $(function () {
     },
     maintainAspectRatio: false,
     responsive: true
-  }
-  // Create pie or douhnut chart
-  // You can switch between pie and douhnut using the method below.
-  // eslint-disable-next-line no-unused-vars
-  var pieChart = new Chart(pieChartCanvas, { // lgtm[js/unused-local-variable]
+  } 
+  var pieChart = new Chart(pieChartCanvas, { 
     type: 'doughnut',
     data: pieData,
     options: pieOptions
@@ -257,9 +244,8 @@ $(function () {
     }
   }
 
-  // This will get the first returned node in the jQuery collection.
-  // eslint-disable-next-line no-unused-vars
-  var salesGraphChart = new Chart(salesGraphChartCanvas, { // lgtm[js/unused-local-variable]
+
+  var salesGraphChart = new Chart(salesGraphChartCanvas, { 
     type: 'line',
     data: salesGraphChartData,
     options: salesGraphChartOptions

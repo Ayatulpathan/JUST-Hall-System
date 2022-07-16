@@ -22,9 +22,7 @@
 	<div class="card card-outline rounded-0 card-maroon">
 		<div class="card-header">
 			<h5 class="card-title">System Information</h5>
-			<!-- <div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-navy new_department" href="javascript:void(0)"><i class="fa fa-plus"></i> Add New</a>
-			</div> -->
+			
 		</div>
 		<div class="card-body">
 			<form action="" id="system-frm">
@@ -37,14 +35,7 @@
 					<label for="short_name" class="control-label">System Short Name</label>
 					<input type="text" class="form-control form-control-sm" name="short_name" id="short_name" value="<?php echo  $_settings->info('short_name') ?>">
 				</div>
-			<!-- <div class="form-group">
-				<label for="" class="control-label">Welcome Content</label>
-	             <textarea name="content[welcome]" id="" cols="30" rows="2" class="form-control summernote">< ?php echo  is_file(base_app.'welcome.html') ? file_get_contents(base_app.'welcome.html') : "" ?></textarea>
-			</div>
-			<div class="form-group">
-				<label for="" class="control-label">About Us</label>
-	             <textarea name="content[about]" id="" cols="30" rows="2" class="form-control summernote">< ?php echo  is_file(base_app.'about.html') ? file_get_contents(base_app.'about.html') : "" ?></textarea>
-			</div> -->
+			
 			<div class="form-group">
 				<label for="" class="control-label">System Logo</label>
 				<div class="custom-file">
